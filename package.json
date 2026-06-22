@@ -11,6 +11,6 @@
     "@types/react": "latest",
     "esbuild": "latest",
     "typescript": "latest",
-    "vendetta-types": "^2.3.5"
+    "vendetta-types": "latest"
   }
 }

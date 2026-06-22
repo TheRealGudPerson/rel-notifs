@@ -64,7 +64,7 @@ dist/                Generated installable plugin files after build
    https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/
    ```
 
-9. Open Revenge's plugin installer and paste that URL. Revenge reads `manifest.json`, then loads the compiled `index.js` referenced by the manifest.
+9. Open Revenge's plugin installer and paste that URL. Revenge reads `manifest.json`, then loads the compiled `index.js` referenced by the manifest. The manifest intentionally uses `"main": "index.js"` because GitHub Pages serves the selected `/dist` folder as the site root; using `dist/index.js` in the manifest would make Revenge request a non-existent `/dist/dist/index.js` URL and show `failed to fetch js`.
 
 ## Development notes
 

@@ -7,7 +7,7 @@
       "id": "0"
     }
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "vendetta": {
     "icon": "FriendsIcon"
   }
