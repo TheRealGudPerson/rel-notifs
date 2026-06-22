@@ -1,0 +1,14 @@
+{
+  "name": "Relationship & Server Notifs",
+  "description": "Sends mobile notifications and keeps a history when friends or servers are added or removed.",
+  "authors": [
+    {
+      "name": "rel-notifs",
+      "id": "0"
+    }
+  ],
+  "main": "index.js",
+  "vendetta": {
+    "icon": "FriendsIcon"
+  }
+}
