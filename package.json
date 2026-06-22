@@ -1,0 +1,16 @@
+{
+  "name": "revenge-relationship-server-notifs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "esbuild": "latest",
+    "typescript": "latest",
+    "vendetta-types": "latest"
+  }
+}
